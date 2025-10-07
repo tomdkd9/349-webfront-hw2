@@ -7,22 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <div class="header-title">
-        <h1>Movie Explorer</h1>
-    </div>
-    <div class="header-controls">
-        <input type="text" id="searchInput" placeholder="Search for a movie...">
-        <select id="sortSelect">
-            <option value="">Sort by</option>
-            <option value="release_date.asc">Release Date (Asc)</option>
-            <option value="release_date.desc">Release Date (Desc)</option>
-            <option value="vote_average.asc">Rating (Asc)</option>
-            <option value="vote_average.desc">Rating (Desc)</option>
-        </select>
-    </div>
-</header>
-
+    <header>
+        <div class="header-title">
+            <h1>Movie Explorer</h1>
+        </div>
+        <div class="drop-down-menu-controls">
+            <input type="text" id="searchInput" placeholder="Search for a movie...">
+            <select id="sortSelect">
+                <option value="">Sort by</option>
+                <option value="release_date.asc">Release Date (Asc)</option>
+                <option value="release_date.desc">Release Date (Desc)</option>
+                <option value="vote_average.asc">Rating (Asc)</option>
+                <option value="vote_average.desc">Rating (Desc)</option>
+            </select>
+        </div>
+    </header>
 
     <main>
         <div id="moviesContainer" class="movies-container"></div>
